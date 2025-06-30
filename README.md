@@ -1,6 +1,7 @@
 # Wavelet and Prototype Augmented Query-based Transformer for Pixel-level Surface Defect Detection (CVPR2025)
 The code is available at Baidu Disk: https://pan.baidu.com/s/1oc3gSLK7KsE4satHqBKDNQ?pwd=x7vk 提取码: x7vk 
-
+# Introduction
+[network.png]
 # Citation
 ```bibtex
 @inproceedings{Yan_2025_CVPR,
