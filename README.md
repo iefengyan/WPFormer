@@ -17,7 +17,7 @@
 <!-- TABLE HEADER -->
 <th valign="bottom">Dataset Name</th>
 <th valign="bottom">Dataset Download</th>
-<th valign="bottom">Backbone</th>
+<th valign="center">Backbone</th>
 <th valign="bottom">Config</th>
 <th valign="bottom">Model link</th>
 <th valign="bottom">Prediction maps</th>
