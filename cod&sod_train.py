@@ -137,11 +137,11 @@ def train(model_name, dataset_name):
 
     file_dir= ".\datasets\\"
 
-    train_image_root = os.path.join(file_dir, dataset_name + "\\train\images\\")
+    train_image_root = os.path.join(file_dir, dataset_name + "\\train\imgs\\")
     train_gt_root = os.path.join(file_dir, dataset_name + "\\train\gt\\")
     test_image_root = os.path.join(file_dir, dataset_name + "\\test\\ECSSD\imgs\\")
     test_gt_root = os.path.join(file_dir, dataset_name + "\\test\\ECSSD\gt\\")
-    # For COD, the bs is set to 16. For SOD,  the bs is set to 6.
+    ################  Note that For COD, the bs is set to 16. For SOD,  the bs is set to 6. ######################
     train_loader1 = get_loader(train_image_root, train_gt_root, batchsize=6, trainsize=train_size, is_train=True)
 
     # ------- 3. define model --------
@@ -219,10 +219,7 @@ def train(model_name, dataset_name):
 
 
 if __name__ == '__main__':
-    # setup_seed(2025)
 
-    # dataset_name = "SOD"
-    # train(model_name, dataset_name)
     dataset_name = "SOD"
     train(dataset_name)
   
