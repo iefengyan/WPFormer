@@ -60,31 +60,43 @@
 <td align="center">-</td>
 </tr>
 <tr>
-  <td align="center" rowspan="2"> COD </td>
+  <!-- Dataset Name 合并 -->
+  <td align="center" rowspan="2">COD</td>
+
+  <!-- Input size -->
   <td align="center">384x384</td>
-  <td align="center">
-    <a href="https://drive.google.com/file/d/1cxTArDCfx1MnwigUWVIu6qUg-d4lQCTf/view?usp=sharing">Link</a>
+
+  <!-- Dataset Download 合并 -->
+  <td align="center" rowspan="2">
+    <a href="https://drive.google.com/file/d/1cxTArDCfx1MnwigUWVIu6qUg-d4lQCTf/view?usp=sharing">
+      Link
+    </a>
   </td>
-  <td align="center">
-    <a href="https://drive.google.com/file/d/1z_hZm-6M8lUxpBCbEiLa0TqY8FzjOX3z/view?usp=sharing">PVTV2-B4</a>
+
+  <!-- Backbone 合并 -->
+  <td align="center" rowspan="2">
+    <a href="https://drive.google.com/file/d/1z_hZm-6M8lUxpBCbEiLa0TqY8FzjOX3z/view?usp=sharing">
+      PVTV2-B4
+    </a>
   </td>
+
+  <!-- Config（不合并） -->
   <td align="center">channel=128, bs=16, lr=4e-5, epoch=150</td>
+
   <td align="center">-</td>
   <td align="center">-</td>
 </tr>
+
 <tr>
-  <!-- 这里不要再写 COD -->
+  <!-- 注意：这里不再写 COD / Dataset Download / Backbone -->
   <td align="center">512x512</td>
-  <td align="center">
-    <a href="https://drive.google.com/file/d/1cxTArDCfx1MnwigUWVIu6qUg-d4lQCTf/view?usp=sharing">Link</a>
-  </td>
-  <td align="center">
-    <a href="https://drive.google.com/file/d/1z_hZm-6M8lUxpBCbEiLa0TqY8FzjOX3z/view?usp=sharing">PVTV2-B4</a>
-  </td>
+
   <td align="center">channel=128, bs=8, lr=4e-5, epoch=150</td>
+
   <td align="center">-</td>
   <td align="center">-</td>
 </tr>
+
 </tbody></table>
 
 
