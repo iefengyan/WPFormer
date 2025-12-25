@@ -260,7 +260,7 @@ class MultiheadAttention(nn.Module):
 
 
 class WPFormer(nn.Module):
-    def __init__(self, method channel=64, num_queries=16):
+    def __init__(self, method="pvt_v2_b2", channel=64, num_queries=16):
         super(WPFormer, self).__init__()
         if method=="pvt_v2_b2":
             self.backbone = pvt_v2_b2()  # [64, 128, 320, 512]
