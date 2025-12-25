@@ -260,10 +260,15 @@ class MultiheadAttention(nn.Module):
 
 
 class WPFormer(nn.Module):
-    def __init__(self, channel=64, num_queries=16):
+    def __init__(self, method channel=64, num_queries=16):
         super(WPFormer, self).__init__()
-        self.backbone = pvt_v2_b2()  # [64, 128, 320, 512]
-        path = 'D:\yanfeng\Paper Code\CVPR2025\WPFormer\model\pvt_v2_b2.pth'
+        if method=="pvt_v2_b2":
+            self.backbone = pvt_v2_b2()  # [64, 128, 320, 512]
+            path = 'D:\yanfeng\Paper Code\CVPR2025\WPFormer\model\pvt_v2_b2.pth'
+        else:
+            self.backbone = pvt_v2_b4()  # [64, 128, 320, 512]
+            path = 'D:\yanfeng\Paper Code\CVPR2025\WPFormer\model\pvt_v2_b4.pth'
+            
         save_model = torch.load(path)
         model_dict = self.backbone.state_dict()
         state_dict = {k: v for k, v in save_model.items() if k in model_dict.keys()}
