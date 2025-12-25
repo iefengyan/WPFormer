@@ -9,7 +9,9 @@
 * cudatoolkit==11.3.1 
 * pytorch==1.11.0
 # Results
-
+We provide the results of WPFormer on COD and SOD datasets.
+![image](.//cod_results.png)
+![image](.//sod_results.png)
 <table><tbody>
 <!-- START TABLE -->
 <!-- TABLE HEADER -->
