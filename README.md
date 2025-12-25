@@ -16,33 +16,37 @@
 <!-- START TABLE -->
 <!-- TABLE HEADER -->
 <th valign="bottom">Dataset Name</th>
+<th valign="bottom">Input size</th>
 <th valign="bottom">Dataset Download</th>
 <th valign="center">Backbone</th>
-<th valign="bottom">Config</th>
+<th valign="center">Config</th>
 <th valign="bottom">Model link</th>
 <th valign="bottom">Prediction maps</th>
 <!-- TABLE BODY -->
 <tr>
 <td align="center">ESDIs-SOD </td>
 <td align="center"><a href="https://drive.google.com/file/d/1LC6PxiKcjad26EKMRHUHoqSVCBnHEqif/view?usp=sharing">Link</a></td>
+<td align="center">384</td>
 <td align="center"><a href="https://drive.google.com/file/d/1o3PDfaIKlx1EB21lbt_h37nRzwzJYoIX/view?usp=sharing">PVTV2-B2</a></td>
-<td align="center">channel=64,bs=8(384), lr=8e-5,epoch=150</td>
+<td align="center">channel=64, bs=8, lr=8e-5, epoch=150</td>
 <td align="center"><a href="https://drive.google.com/file/d/1GKE2h_r1hACEFXB8H_3lbkN61dSmi7I3/view?usp=sharing">Link</a></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="center"> CrackSeg9k </td>
+<td align="center">384</td>
 <td align="center"><a href="https://drive.google.com/file/d/1pOQBOjs_r9g6by0QQWU6hFT-dGeHlQqZ/view?usp=sharing">Link</a></td>
 <td align="center"><a href="https://drive.google.com/file/d/1o3PDfaIKlx1EB21lbt_h37nRzwzJYoIX/view?usp=sharing">PVTV2-B2</a></td>
-<td align="center">channel=64,bs=4(384), lr=8e-5, epoch=60</td>
+<td align="center">channel=64, bs=4, lr=8e-5, epoch=60</td>
 <td align="center"><a href="https://drive.google.com/file/d/17Yq3nr3CoxGL0P6hXdWnWmDo3yiCYzVU/view?usp=sharing">Link</a></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="center">ZJU-Leaper </td>
+<td align="center">384</td>
 <td align="center"><a href="https://drive.google.com/file/d/1KpKTYP97BnsKvfB2PCZ_jiBrZQJwUnb8/view?usp=sharing">Link</a></td>
 <td align="center"><a href="https://drive.google.com/file/d/1o3PDfaIKlx1EB21lbt_h37nRzwzJYoIX/view?usp=sharing">PVTV2-B2</a></td>
-<td align="center">channel=64,bs=4(384), lr=8e-5, epoch=24</td>
+<td align="center">channel=64, bs=4, lr=8e-5, epoch=24</td>
 <td align="center"><a href="https://drive.google.com/file/d/1AnSInc-yJGkl7plucSx6nsgEAd34DvY8/view?usp=sharing">Link</a></td>
 <td align="center"></td>
 </tr>
@@ -50,15 +54,25 @@
 <td align="center"> SOD </td>
 <td align="center">-</td>
 <td align="center"><a href="https://drive.google.com/file/d/1z_hZm-6M8lUxpBCbEiLa0TqY8FzjOX3z/view?usp=sharing">PVTV2-B4</a></td>
-<td align="center">channel=128, bs=6(384), lr = 4e-5, epoch=60</td>
+<td align="center">channel=128, bs=6(384), lr=4e-5, epoch=60</td>
 <td align="center">-</td>
 <td align="center">-</td>
 </tr>
 <tr>
 <td align="center"> COD </td>
+<td align="center">384</td>
 <td align="center">-</td>
 <td align="center"><a href="https://drive.google.com/file/d/1z_hZm-6M8lUxpBCbEiLa0TqY8FzjOX3z/view?usp=sharing">PVTV2-B4</a></td>
-<td align="center">channel=128, bs=16(384), bs=8(512), lr = 4e-5, epoch=150</td>
+<td align="center">channel=128, bs=16, lr=4e-5, epoch=150</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center"> COD </td>
+<td align="center">512</td>
+<td align="center">-</td>
+<td align="center"><a href="https://drive.google.com/file/d/1z_hZm-6M8lUxpBCbEiLa0TqY8FzjOX3z/view?usp=sharing">PVTV2-B4</a></td>
+<td align="center">channel=128, bs=8, lr=4e-5, epoch=150</td>
 <td align="center">-</td>
 <td align="center">-</td>
 </tr>
