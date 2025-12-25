@@ -1,16 +1,15 @@
 # [\[CVPR2025\]Wavelet and Prototype Augmented Query-based Transformer for Pixel-level Surface Defect Detection](https://openaccess.thecvf.com/content/CVPR2025/papers/Yan_Wavelet_and_Prototype_Augmented_Query-based_Transformer_for_Pixel-level_Surface_Defect_CVPR_2025_paper.pdf)
 
 ![image](.//network.png)
-# Code
-* The code is available at [Baidu Disk]( https://pan.baidu.com/s/1oc3gSLK7KsE4satHqBKDNQ?pwd=x7vk)(提取码: x7vk) and [Google Drive](https://drive.google.com/drive/folders/1HDRzqXynM4jp66FSBVcXoyJOrTB_jkLX?usp=sharing) 
-* The saved models can be downloaded at [Google Drive](https://drive.google.com/drive/folders/1HDRzqXynM4jp66FSBVcXoyJOrTB_jkLX?usp=sharing).
+## :fire: News 
+- We provide the results of WPFormer trained on COD and SOD datasets.
 # Requirements
 * python==3.7.13 
 * cudatoolkit==11.3.1 
 * pytorch==1.11.0
-# Results
-We provide the results of WPFormer on COD and SOD datasets.
+# Results on COD
 ![image](.//cod_results.png)
+# Results on SOD
 ![image](.//sod_results.png)
 <table><tbody>
 <!-- START TABLE -->
