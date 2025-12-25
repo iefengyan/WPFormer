@@ -44,17 +44,17 @@ We provide the results of WPFormer on COD and SOD datasets.
 </tr>
 <tr>
 <td align="center"> SOD </td>
-<td align="center">PVTV2-B4<a href="https://drive.google.com/file/d/1qx6zGZgSPkF6TObregRz4uzQqSRHrgUw/view?usp=drive_link">ckpt</a></td>
+<td align="center">-</td>
 <td align="center"><a href="https://drive.google.com/file/d/1z_hZm-6M8lUxpBCbEiLa0TqY8FzjOX3z/view?usp=sharing">PVTV2-B4</a></td>
-<td align="center"></td>
-<td align="center"></td>
+<td align="center">-</td>
+<td align="center">-</td>
 </tr>
 <tr>
 <td align="center"> COD </td>
-<td align="center">PVTV2-B2<a href="https://drive.google.com/file/d/1qx6zGZgSPkF6TObregRz4uzQqSRHrgUw/view?usp=drive_link">ckpt</a></td>
+<td align="center">-</td>
 <td align="center"><a href="https://drive.google.com/file/d/1z_hZm-6M8lUxpBCbEiLa0TqY8FzjOX3z/view?usp=sharing">PVTV2-B4</a></td>
-<td align="center"></td>
-<td align="center"></td>
+<td align="center">-</td>
+<td align="center">-</td>
 </tr>
 </tbody></table>
 
