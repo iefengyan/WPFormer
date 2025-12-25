@@ -83,7 +83,7 @@ def eval_psnr(test_image_root, test_gt_root, train_size,model):
 def main(file_dir, dataset_name):
 
 
-    net = WPFormer()
+    net = WPFormer(method="pvt_v2_b4", channel=128)
     train_size = 384
 
     if torch.cuda.is_available():
