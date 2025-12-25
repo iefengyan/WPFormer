@@ -23,7 +23,6 @@
 <td align="center">ESDIs-SOD </td>
 <td align="center"><a href="https://drive.google.com/file/d/1qx6zGZgSPkF6TObregRz4uzQqSRHrgUw/view?usp=drive_link">PVTV2-B2</a></td>
 <td align="center"><a href="https://drive.google.com/file/d/1o3PDfaIKlx1EB21lbt_h37nRzwzJYoIX/view?usp=sharing">PVTV2-B2</a></td>
-<td align="center"></td>
 <td align="center"><a href="https://drive.google.com/file/d/1GKE2h_r1hACEFXB8H_3lbkN61dSmi7I3/view?usp=sharing">Link</a></td>
 <td align="center"></td>
 </tr>
