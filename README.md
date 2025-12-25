@@ -2,7 +2,7 @@
 
 ![image](.//network.png)
 ## :fire: News 
-- We provide the results of WPFormer trained on COD and SOD datasets.
+ **2025-12-25:** We release the results of WPFormer trained on COD and SOD datasets.
 # Requirements
 * python==3.7.13 
 * cudatoolkit==11.3.1 
