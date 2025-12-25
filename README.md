@@ -62,7 +62,7 @@
 <tr>
 <td align="center"> COD </td>
 <td align="center">384x384</td>
-<td align="center">-</td>
+<td align="center"><a href="https://drive.google.com/file/d/1cxTArDCfx1MnwigUWVIu6qUg-d4lQCTf/view?usp=sharing">Link</a></td>
 <td align="center"><a href="https://drive.google.com/file/d/1z_hZm-6M8lUxpBCbEiLa0TqY8FzjOX3z/view?usp=sharing">PVTV2-B4</a></td>
 <td align="center">channel=128, bs=16, lr=4e-5, epoch=150</td>
 <td align="center">-</td>
@@ -71,7 +71,7 @@
 <tr>
 <td align="center"> COD </td>
 <td align="center">512x512</td>
-<td align="center">-</td>
+<td align="center"><a href="https://drive.google.com/file/d/1cxTArDCfx1MnwigUWVIu6qUg-d4lQCTf/view?usp=sharing">Link</a></td>
 <td align="center"><a href="https://drive.google.com/file/d/1z_hZm-6M8lUxpBCbEiLa0TqY8FzjOX3z/view?usp=sharing">PVTV2-B4</a></td>
 <td align="center">channel=128, bs=8, lr=4e-5, epoch=150</td>
 <td align="center">-</td>
