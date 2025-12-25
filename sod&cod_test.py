@@ -80,7 +80,7 @@ def eval_psnr(test_image_root, test_gt_root, train_size,model):
     }
     print(results)
 
-def main(dataset_name):
+def main(file_dir, dataset_name):
 
 
     net = WPFormer()
@@ -94,9 +94,9 @@ def main(dataset_name):
     net.load_state_dict(torch.load(model_save),strict=False)
 
 
-    file_dir = ".\datasets\\"
-    test_image_root = os.path.join(file_dir, dataset_name + "\\test\\imgs\\")
-    test_gt_root = os.path.join(file_dir, dataset_name + "\\test\\gt\\")
+    
+    test_image_root = os.path.join(file_dir, dataset_name + "\\imgs\\")
+    test_gt_root = os.path.join(file_dir,  dataset_name + "\\gt\\")
 
 
 
@@ -105,12 +105,11 @@ def main(dataset_name):
 
 
 if __name__ == '__main__':
-
-
+    file_dir = ".\datasets\\SOD\\test"
     dataset_names = ["ECSSD","PASCAL-S","DUT-O","HKU-IS","DUTS-TE","SOD"]
     for dataset_name in dataset_names:
 
-            main(dataset_name)
+            main(file_dir, dataset_name)
 
 
 
