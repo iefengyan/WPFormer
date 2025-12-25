@@ -105,7 +105,7 @@ def main(file_dir, dataset_name):
 
 
 if __name__ == '__main__':
-    file_dir = ".\datasets\\SOD\\test"
+    file_dir = ".\datasets\\SOD\\test\\"
     dataset_names = ["ECSSD","PASCAL-S","DUT-O","HKU-IS","DUTS-TE","SOD"]
     for dataset_name in dataset_names:
 
