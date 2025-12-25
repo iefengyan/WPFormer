@@ -132,7 +132,7 @@ def train(model_name, dataset_name):
         epoch_num = 60
         epoch_val = 30
 
-    net = WPFormer(channel=128)
+    net = WPFormer(method="pvt_v2_b4", channel=128)
     train_size = 384
 
     file_dir= ".\datasets\\"
