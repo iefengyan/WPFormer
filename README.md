@@ -52,9 +52,10 @@
 </tr>
 <tr>
 <td align="center"> SOD </td>
+td align="center">384</td>
 <td align="center">-</td>
 <td align="center"><a href="https://drive.google.com/file/d/1z_hZm-6M8lUxpBCbEiLa0TqY8FzjOX3z/view?usp=sharing">PVTV2-B4</a></td>
-<td align="center">channel=128, bs=6(384), lr=4e-5, epoch=60</td>
+<td align="center">channel=128, bs=6, lr=4e-5, epoch=60</td>
 <td align="center">-</td>
 <td align="center">-</td>
 </tr>
