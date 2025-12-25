@@ -18,6 +18,7 @@
 <th valign="bottom">Dataset Name</th>
 <th valign="bottom">Dataset Download</th>
 <th valign="bottom">Backbone</th>
+<th valign="bottom">Model Config</th>
 <th valign="bottom">Model link</th>
 <th valign="bottom">Prediction maps</th>
 <!-- TABLE BODY -->
@@ -25,6 +26,7 @@
 <td align="center">ESDIs-SOD </td>
 <td align="center"><a href="https://drive.google.com/file/d/1LC6PxiKcjad26EKMRHUHoqSVCBnHEqif/view?usp=sharing">Link</a></td>
 <td align="center"><a href="https://drive.google.com/file/d/1o3PDfaIKlx1EB21lbt_h37nRzwzJYoIX/view?usp=sharing">PVTV2-B2</a></td>
+<td align="center">channel=64</td>
 <td align="center"><a href="https://drive.google.com/file/d/1GKE2h_r1hACEFXB8H_3lbkN61dSmi7I3/view?usp=sharing">Link</a></td>
 <td align="center"></td>
 </tr>
@@ -32,6 +34,7 @@
 <td align="center"> CrackSeg9k </td>
 <td align="center"><a href="https://drive.google.com/file/d/1pOQBOjs_r9g6by0QQWU6hFT-dGeHlQqZ/view?usp=sharing">Link</a></td>
 <td align="center"><a href="https://drive.google.com/file/d/1o3PDfaIKlx1EB21lbt_h37nRzwzJYoIX/view?usp=sharing">PVTV2-B2</a></td>
+<td align="center">channel=64</td>
 <td align="center"><a href="https://drive.google.com/file/d/17Yq3nr3CoxGL0P6hXdWnWmDo3yiCYzVU/view?usp=sharing">Link</a></td>
 <td align="center"></td>
 </tr>
@@ -39,20 +42,23 @@
 <td align="center">ZJU-Leaper </td>
 <td align="center"><a href="https://drive.google.com/file/d/1KpKTYP97BnsKvfB2PCZ_jiBrZQJwUnb8/view?usp=sharing">Link</a></td>
 <td align="center"><a href="https://drive.google.com/file/d/1o3PDfaIKlx1EB21lbt_h37nRzwzJYoIX/view?usp=sharing">PVTV2-B2</a></td>
+<td align="center">channel=64</td>
 <td align="center"><a href="https://drive.google.com/file/d/1AnSInc-yJGkl7plucSx6nsgEAd34DvY8/view?usp=sharing">Link</a></td>
 <td align="center"></td>
 </tr>
 <tr>
 <td align="center"> SOD </td>
 <td align="center">-</td>
-<td align="center"><a href="https://drive.google.com/file/d/1z_hZm-6M8lUxpBCbEiLa0TqY8FzjOX3z/view?usp=sharing">PVTV2-B4(channel=128)</a></td>
+<td align="center"><a href="https://drive.google.com/file/d/1z_hZm-6M8lUxpBCbEiLa0TqY8FzjOX3z/view?usp=sharing">PVTV2-B4</a></td>
+<td align="center">channel=128</td>
 <td align="center">-</td>
 <td align="center">-</td>
 </tr>
 <tr>
 <td align="center"> COD </td>
 <td align="center">-</td>
-<td align="center"><a href="https://drive.google.com/file/d/1z_hZm-6M8lUxpBCbEiLa0TqY8FzjOX3z/view?usp=sharing">PVTV2-B4(channel=128)</a></td>
+<td align="center"><a href="https://drive.google.com/file/d/1z_hZm-6M8lUxpBCbEiLa0TqY8FzjOX3z/view?usp=sharing">PVTV2-B4</a></td>
+<td align="center">channel=128</td>
 <td align="center">-</td>
 <td align="center">-</td>
 </tr>
