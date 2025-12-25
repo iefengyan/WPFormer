@@ -181,11 +181,12 @@ class SalObjDataset(data.Dataset):
     def __getitem__(self, index):
         image = self.rgb_loader(self.images[index])
         gt = self.binary_loader(self.gts[index])
-
+        # Note that we adopt the following data augmentation methods For CrackSeg9k. For ZJU-Leaper, we do not adopt any augmentation methods, please delete it.
         if self.is_train:
              image, gt = cv_random_flip(image, gt)
              image, gt = randomRotation(image, gt)
              image, gt = randomCrop(image, gt)
+    
 
         gt = np.asarray(gt)
         edge = cv2.Canny(gt, 100, 200)
