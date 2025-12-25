@@ -56,7 +56,7 @@
 <td align="center">-</td>
 <td align="center"><a href="https://drive.google.com/file/d/1z_hZm-6M8lUxpBCbEiLa0TqY8FzjOX3z/view?usp=sharing">PVTV2-B4</a></td>
 <td align="center">channel=128, bs=6, lr=4e-5, epoch=60</td>
-<td align="center">-</td>
+<td align="center"><a href="https://drive.google.com/file/d/16tOcEJuuEK6_f0Od87GIdjCzINQh50aD/view?usp=sharing">Link</a></td>
 <td align="center">-</td>
 </tr>
 <tr>
