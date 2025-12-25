@@ -95,31 +95,31 @@
   <td align="center">384x384</td>
   <td align="center">channel=128, bs=6, lr=4e-5, epoch=60</td>
   <td align="center">
-    <a href="https://drive.google.com/file/d/16tOcEJuuEK6_f0Od87GIdjCzINQh50aD/view?usp=sharing">Link</a>
+    <a href="https://drive.google.com/file/d/1ylpixUUIu6IOTVdUCjQRbffuEk-y81lX/view?usp=sharing">Link</a>
   </td>
-  <td align="center">-</td>
+  <td align="center"><a href="https://drive.google.com/file/d/1qKyP2HIYrJJKwsGP-5rrzngF0NrytTDi/view?usp=sharing">Link</a></td>
 </tr>
 
 <!-- COD -->
 <tr>
   <td align="center" rowspan="2">COD</td>
   <td align="center" rowspan="2">
-    <a href="https://drive.google.com/file/d/1cxTArDCfx1MnwigUWVIu6qUg-d4lQCTf/view?usp=sharing">Link</a>
+    <a href="https://drive.google.com/file/d/1rRJ7lNAdEUivJ86an-G51N0KmQDFJMBP/view?usp=sharing">Link</a>
   </td>
   <td align="center" rowspan="2">
     <a href="https://drive.google.com/file/d/1z_hZm-6M8lUxpBCbEiLa0TqY8FzjOX3z/view?usp=sharing">PVTV2-B4</a>
   </td>
   <td align="center">384x384</td>
   <td align="center">channel=128, bs=16, lr=4e-5, epoch=150</td>
-  <td align="center">-</td>
-  <td align="center">-</td>
+  <td align="center"> <a href="https://drive.google.com/file/d/1d1H8qgt8wx1tMU9ugyVjaZyO6peuJSko/view?usp=sharing">Link</a></td>
+  <td align="center"> <a href="https://drive.google.com/file/d/15N4b7MLyDYmFXT1H0UuwIFcT2UX79kZI/view?usp=sharing">Link</a></td>
 </tr>
 
 <tr>
   <td align="center">512x512</td>
   <td align="center">channel=128, bs=8, lr=4e-5, epoch=150</td>
-  <td align="center">-</td>
-  <td align="center">-</td>
+  <td align="center"> <a href="https://drive.google.com/file/d/1nUaZA5sThpL_Ztv8S7QFw8vVmNYe9OwX/view?usp=sharing">Link</a></td>
+  <td align="center"> <a href="https://drive.google.com/file/d/18d38uNqdcAt9WlHDmwYjE3i0CPzUmEHb/view?usp=sharing">Link</a></td>
 </tr>
 
 </tbody>
