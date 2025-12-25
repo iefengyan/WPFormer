@@ -136,7 +136,7 @@ def train(model_name, dataset_name):
         epoch_num = 150
         epoch_val = 100
 
-    net = WPFormer()
+    net = WPFormer(method="pvt_v2_b2", channel=64)
     train_size = 384
 
     file_dir= ".\datasets\\"
@@ -231,6 +231,7 @@ if __name__ == '__main__':
     train(dataset_name)
     # dataset_name = "CrackSeg9k"
     # train(model_name, dataset_name)
+
 
 
 
