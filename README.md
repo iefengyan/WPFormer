@@ -8,7 +8,7 @@
 * cudatoolkit==11.3.1 
 * pytorch==1.11.0
 # Results on COD
-
+![image](.//cod_results.png)
 # Results on SOD
 ![image](.//sod_results.png)
 # Pretrained models and results
