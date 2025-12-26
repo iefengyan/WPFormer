@@ -22,7 +22,7 @@
   <th valign="center">Backbone</th>
   <th valign="bottom">Input size</th>
   <th valign="center">Config</th>
-  <th valign="bottom">Model link</th>
+  <th valign="bottom">Checkpoints</th>
   <th valign="bottom">Prediction maps</th>
 </tr>
 
