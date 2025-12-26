@@ -111,7 +111,7 @@
   <td align="center">384x384</td>
   <td align="center">channel=128, bs=16, lr=4e-5, epoch=150</td>
   <td align="center"> <a href="https://drive.google.com/file/d/1wpF3nUHj6gNkIpESV-kVxnRPN4J7bo5E/view?usp=sharing">Link</a></td>
-  <td align="center"> <a href="https://drive.google.com/file/d/15N4b7MLyDYmFXT1H0UuwIFcT2UX79kZI/view?usp=sharing">Link</a></td>
+  <td align="center"> <a href="https://drive.google.com/file/d/11pOft6DExk3G8hWPEJlHZKnp_BlZx5uB/view?usp=sharing">Link</a></td>
 </tr>
 
 <tr>
