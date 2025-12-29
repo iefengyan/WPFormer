@@ -136,7 +136,7 @@ By default, you can put datasets into the folder 'Dataset'.
 
 - **Checkpoints:** 
 
-By default, you can put pretrained backbone checkpoints into the folder 'model' and modify the model path in "WPForemer.py".
+By default, you can put pretrained backbone checkpoints into the folder 'model' and modify the model path in "WPFormer.py".
 
 
 **2. Test.**
