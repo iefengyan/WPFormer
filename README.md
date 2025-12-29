@@ -9,11 +9,11 @@ This is the official code repository for "Wavelet and Prototype Augmented Query-
 * cudatoolkit==11.3.1 
 * pytorch==1.11.0
   
-# 2. Results on COD
+## 2. Results on COD
 
 ![image](.//cod_results.png)
 
-# 3. Results on SOD
+## 3. Results on SOD
 
 ![image](.//sod_results.png)
 
@@ -46,7 +46,7 @@ By default, you can download prediction maps and unzip it into the main folder, 
 ```
 run eval.py
 ```
-# 5. Pretrained models and results
+## 5. Pretrained models and results
 <table>
 <tbody>
 
