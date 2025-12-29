@@ -136,19 +136,19 @@ By default, you can put datasets into the folder 'Dataset'.
 
 - **Checkpoints:** 
 
-By default, you can put pretrained backbone checkpoints into the folder 'model' and modfify the model path in "WPForemer.py".
+By default, you can put pretrained backbone checkpoints into the folder 'model' and modify the model path in "WPForemer.py".
 
 
 **2. Test.**
 
-modfify the dataset and model path in "defect_test.py".
+modify the test dataset and model path in "defect_test.py".
 
 ```
 run defect_test.py
 ```
 
 **3. Eval.**
-By default, you can download prediction maps and unzip it into the main folder, then modfify the dataset path and prediction maps path in "eval.py".
+By default, you can download prediction maps and unzip it into the main folder, and modify the dataset path and prediction maps path in "eval.py".
 
 ```
 run eval.py
