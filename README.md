@@ -125,6 +125,30 @@ This is the official code repository for "Wavelet and Prototype Augmented Query-
 </tbody>
 </table>
 
+## 2. Get Start
+
+
+**1. Download Datasets and Checkpoints.**
+
+- **Datasets:** 
+
+By default, you can put datasets into the folder 'dataset'
+
+- **Checkpoints:** 
+
+By default, you can put pretrained backbone checkpoints into the folder 'model'.
+
+
+**2. Test.**
+modfify the dataset path
+```
+run defect_test.py
+```
+
+**3. Eval.**
+```
+run eval.py
+```
 
 
 # Citation
