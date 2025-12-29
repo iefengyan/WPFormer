@@ -133,7 +133,7 @@ This is the official code repository for "Wavelet and Prototype Augmented Query-
 - **Datasets:** 
 
 By default, you can put datasets into the folder 'Dataset'.
-.
+
 - **Checkpoints:** 
 
 By default, you can put pretrained backbone checkpoints into the folder 'model' and modfify the model path in "WPForemer.py".
