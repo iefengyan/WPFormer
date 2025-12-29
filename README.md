@@ -4,13 +4,13 @@ This is the official code repository for "Wavelet and Prototype Augmented Query-
 ![image](.//network.png)
 ## :fire: News 
  **2025-12-25:** We release the results of WPFormer trained on COD and SOD datasets.
-# Requirements
+# 1 Requirements
 * python==3.7.13 
 * cudatoolkit==11.3.1 
 * pytorch==1.11.0
-# Results on COD
+# 2 Results on COD
 ![image](.//cod_results.png)
-# Results on SOD
+# 3 Results on SOD
 ![image](.//sod_results.png)
 # Pretrained models and results
 <table>
@@ -125,29 +125,31 @@ This is the official code repository for "Wavelet and Prototype Augmented Query-
 </tbody>
 </table>
 
-## 2. Get Start
+## 4. Get Start
 
 
 **1. Download Datasets and Checkpoints.**
 
 - **Datasets:** 
 
-By default, you can put datasets into the folder 'dataset'
-
+By default, you can put datasets into the folder 'Dataset'.
+.
 - **Checkpoints:** 
 
-By default, you can put pretrained backbone checkpoints into the folder 'model'.
+By default, you can put pretrained backbone checkpoints into the folder 'model' and modfify the model path in "WPForemer.py".
 
 
 **2. Test.**
 
-modfify the dataset and model path
+modfify the dataset and model path in "defect_test.py".
 
 ```
 run defect_test.py
 ```
 
 **3. Eval.**
+By default, you can download prediction maps and unzip it into the main folder, then modfify the dataset path and prediction maps path in "eval.py".
+
 ```
 run eval.py
 ```
