@@ -41,7 +41,7 @@ run defect_test.py
 
 **3. Eval.**
 
-By default, you can download prediction maps and unzip it into the main folder, and modify the dataset path and prediction maps path in "eval.py".
+The evaluation code sourced from [PySODMetrics](https://github.com/lartpang/PySODMetrics). By default, you can download prediction maps and unzip it into the main folder, and modify the dataset path and prediction maps path in "eval.py".
 
 ```
 run eval.py
