@@ -129,13 +129,12 @@ This is the official code repository for "Wavelet and Prototype Augmented Query-
 
 # Citation
 ```bibtex
-@inproceedings{Yan_2025_CVPR,
-  title     = {Wavelet and Prototype Augmented Query-based Transformer for Pixel-level Surface Defect Detection},
-  author    = {Feng Yan and Xiaoheng Jiang and Yang Lu and Jiale Cao and Dong Chen and Mingliang Xu},
-  booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR)},
-  month     = {June},
-  year      = {2025},
-  pages     = {23860--23869},
+@inproceedings{yan2025wavelet,
+  title={Wavelet and Prototype Augmented Query-based Transformer for Pixel-level Surface Defect Detection},
+  author={Yan, Feng and Jiang, Xiaoheng and Lu, Yang and Cao, Jiale and Chen, Dong and Xu, Mingliang},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={23860--23869},
+  year={2025}
 }
 ```
 # Acknowledgement
