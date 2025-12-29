@@ -4,13 +4,13 @@ This is the official code repository for "Wavelet and Prototype Augmented Query-
 ![image](.//network.png)
 ## :fire: News 
  **2025-12-25:** We release the results of WPFormer trained on COD and SOD datasets.
-# 1 Requirements
+## 1. Requirements
 * python==3.7.13 
 * cudatoolkit==11.3.1 
 * pytorch==1.11.0
-# 2 Results on COD
+# 2. Results on COD
 ![image](.//cod_results.png)
-# 3 Results on SOD
+# 3. Results on SOD
 ![image](.//sod_results.png)
 # Pretrained models and results
 <table>
