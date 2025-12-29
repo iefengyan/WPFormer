@@ -140,7 +140,9 @@ By default, you can put pretrained backbone checkpoints into the folder 'model'.
 
 
 **2. Test.**
-modfify the dataset path
+
+modfify the dataset and model path
+
 ```
 run defect_test.py
 ```
