@@ -47,6 +47,7 @@ The metric evaluation code "sod_metrics.py" is sourced from [PySODMetrics](https
 run eval.py
 ```
 ## 5. Pretrained models and results
+All predictions obtained by different methods on five datasets are provided below:
 <table>
 <tbody>
 
