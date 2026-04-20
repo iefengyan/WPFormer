@@ -229,7 +229,7 @@ class MultiheadAttention(nn.Module):
 
         feat = key.transpose(1, 2).view(b, c, hw, hw)
         #
-        LL, HL, LH, HH = self.pool(feat)
+        LL, LH, HL, HH = self.pool(feat)
         high_fre = HL + LH + HH
         low_fre = LL
         high_fre = high_fre.flatten(2).transpose(1, 2)
